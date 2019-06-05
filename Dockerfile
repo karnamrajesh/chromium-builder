@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:12.3.1
+FROM mhart/alpine-node:10.15.0
 MAINTAINER Rajesh Karnam
 
 RUN apk add --no-cache python3 bc git libexif udev chromium chromium-chromedriver xvfb ttf-freefont curl bash
